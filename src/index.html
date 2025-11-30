@@ -7,10 +7,10 @@
 </head>
 <body>
   <div class="h-160 bg-cover bg-center bg-[url('./assets/images.jpg')]">
-    <div  class="absolute inset-0 bg-black/40 items-center justify-between">
+    <div  class="absolute inset-0 bg-black/40 items-center justify-between h-160">
            <div class="flex items-center justify-between">
                 <img src="./assets/Logo.webp" class="w-30 invert ml-20 mt-5 font-bold"/>
-                <nav class="hidden md:flex mr-15 gap-10 text-white font-bold mt-5 text-sm">
+                <nav class=" mr-15 gap-5 text-white font-bold mt-5 text-sm font-[inter] flex">
                  <a href="#">DESTINATIONS <select ></select></a>
                  <a href="#">TOPICS <select ></select></a>
                  <a href="#">ABOUT</a>
@@ -20,8 +20,8 @@
              </nav>
              </div>
 
-             <div class="text-white  text-center mt-60">
-                <h1 class="text-3xl font-bold">
+             <div class="text-white  text-center mt-60 font-[inter]">
+                <h1 class="text-3xl font-bold font-[inter]">
                     Down to Earth travel guides <br/>
                     for the do-it-yourself traveller
                 </h1>
@@ -29,10 +29,102 @@
                    for adventure travel</p>
 
                    <button class="w-50 h-10 bg-amber-500 rounded-2xl text-black font-bold mt-15">SUBSCRIBE FOR TIPS <select></select></button>
+                   <div class=" bg-gray-900 w-40 mt-20 ml-260">
+                      <p >LATEST POSTS</p>
+                   </div>
              </div>
-    </div>
-   
-    
+    </div> 
   </div>
+
+   <div class="flex bg-gray-900 text-white h-70 gap-10 font-[inter] ">
+        <div class="items-center justify-items-center mt-10 ml-10">
+             <img class="w-30 h-30 rounded-[50%]" src="./assets/image3.jpg">
+             <p>Marek Bron</p>
+             <p>Founder</p>
+        </div>
+        <div class="ml-5 mt-10">
+             <p class="font-[inter]">Welcome! Over a decade ago I set off on a career <br/>
+                break that never ended. I now hop around the globe<br/>
+                 bringing you the most in-depth travel guides. Whether<br/>
+                  it's for a bite-size adventure or that epic once-in-a-<br/>
+                  lifetime trip, you can start planning right here!</p>
+             <button class="bg-white text-blue-950 w-25 h-10 mt-5 rounded-xl">ABOUT <b>></b></button>
+        </div>
+        
+        
+       <div class="mt-10">
+         
+        <div class="flex gap-5">
+            <div>
+
+            </div>
+             <div class="bg-[url('./assets/image1.jpg')] w-70 h-50 justify-items-center items-center  ">
+                <div class=" bg-black/40 inset-0 relative w-70 h-50">
+                      <h1 class=" text-xl font-bold p-4">Java by train: How To <br/>
+                    Travel Between <br>
+                     Jakarta, Yogykarta <br/>& Malang</h1>
+                     <p class="bg-gray-900 mt-9 w-30 ml-40 px-2">Nov 28, 2025</p>
+                </div>
+               </div> 
+              <div class=" bg-[url('./assets/image2.jpg')] w-70 h-50 justify-items-center items-center ">
+                <div class=" bg-black/40 inset-0 relative w-70 h-50">
+                     <h1 class=" text-xl font-bold p-4">
+                        Singapore on a <br/>Budget: 
+                        7 Tips for <br/>staying under $60 Per <br/>
+                        day</h1>
+                     <p class="bg-gray-900 mt-9 w-30 ml-40 px-2">Nov 18, 2025</p>
+                     </div>
+              </div>
+        </div>
+       </div>
+    </div>
+
+    <div class="grid grid-cols-3 grid-rows-2 gap-4 ml-10 font-[inter] mt-10 mr-10">
+        <div>
+            <h1 class="text-2xl font-bold ">Explore Destinations</h1>
+            <p class="mt-5 text-lg">
+               Dig into our down-to-Earth travel 
+               guides <b>from <br>around the world. 
+                From must-do journeys to <br>
+                tucked-away treasures
+               </b>,we’ll share everything <br>
+                you need to know.</p>
+        </div>
+
+        <div class="bg-[url('./assets/asia.jpeg')]  h-50 ">
+           <h1 class="text-center text-white mt-20 text-4xl hover:text-yellow-600">Southest Asia</h1> 
+        </div>
+           
+        <div class="bg-[url('./assets/central.jpeg')] h-50 ">
+           <h1 class="text-center text-white mt-20 text-4xl hover:text-yellow-600">Cental America</h1>
+        </div>
+
+        <div class="bg-[url('./assets/europe.jpeg')] h-50 ">
+           <h1 class="text-center text-white mt-20 text-4xl hover:text-yellow-600">Europe</h1>
+        </div>
+
+        <div class="bg-[url('./assets/re.jpeg')]  h-50">
+            <h1 class="text-center text-white mt-20 text-4xl hover:text-yellow-600">South America </h1>
+        </div>
+
+        <div class="bg-[url('./assets/africa.jpeg')] h-50">
+            <h1 class="text-center text-white mt-20 text-4xl hover:text-yellow-600">Africa</h1>
+        </div> 
+    </div>
+
+    <div class="items-center flex mt-18 ml-10">
+        <h1 class="text-4xl text-black mr-15">Explore <br>Trip Ideas</h1>
+        <div class="grid grid-cols-4 grid-rows-2 gap-5 font-bold">
+            <button class="ml-10 bg-red-100 w-45 h-13 rounded-4xl hover:border border-amber-400 ">BackPacking Routes</button>
+            <button class="ml-10 bg-red-100 w-45 h-13 rounded-4xl hover:border border-amber-400">Cheap Countries</button>
+            <button class="ml-10 bg-red-100 w-45 h-13 rounded-4xl hover:border border-amber-400">Underrated Countires</button>
+            <button class="ml-10 bg-red-100 w-45 h-13 rounded-4xl hover:border border-amber-400">Digital Nomanding</button>
+            <button class="ml-10 bg-red-100 w-45 h-13 rounded-4xl hover:border border-amber-400">Banana Pancake Trail</button>
+            <button class="ml-10 bg-red-100 w-45 h-13 rounded-4xl hover:border border-amber-400">Gringo trail</button>
+            <button class="ml-10 bg-red-100 w-45 h-13 rounded-4xl hover:border border-amber-400">Solo Travel</button>
+            <button class="ml-10 bg-red-100 w-45 h-13 rounded-4xl hover:border border-amber-400">Round The World</button>
+        </div>
+
+    </div>
 </body>
 </html>
